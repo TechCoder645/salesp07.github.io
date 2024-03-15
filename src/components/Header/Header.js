@@ -23,14 +23,14 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
+        <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
+  href="https://www.linkedin.com/in/shashibhushan01"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>

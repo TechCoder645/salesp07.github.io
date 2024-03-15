@@ -32,7 +32,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Pedro.',
+                  'Hi, I\'m Shashi Bhushan.',
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -44,34 +44,28 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    'A Web Developer.',
                     1000,
-                    'A BCIT graduate.',
+                    'A MCA Post-graduate.',
                     // 'I design and code beautifully simple things, and I love what I do.',
                     1000,
                     'A problem solver.',
                     1000,
                     'An innovative thinker.',
                     1000,
-                    'A....',
-                    1000,
-                    'A.... cool guy?',
-                    1000,
-                    "Ok...",
-                    1000,
                     "Ok...  I'm running out of ideas...",
                     1000,
-                    "Uhh...",
+                    "Hmm...",
                     1000,
-                    "Uhh... you can scroll down to see my projects now...",
+                    "Hmm... You can now scroll down to view my projects.",
                     300,
                     () => setShowScrollDown(true),
                     1000,
-                    "Seriously, my projects are really cool, go check them out!",
+                    "Believe me, my projects are worth checking out. Take a look!",
                     1000,
-                    "You're uh...",
+                    "Hmm...",
                     1000,
-                    "You're uh... still here?",
+                    "You're still here, huh?",
                     1000,
                     "Ok, this has been fun, but I'm gonna restart the loop now...",
                     // 1000,
